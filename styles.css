@@ -1,0 +1,19 @@
+:root {
+  display: flex;
+  background: black;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+canvas {
+  border: 1px solid black;
+  position: relative;
+}
+#debug {
+  position: absolute;
+  top: 95%;
+  left: 0;
+  color: white;
+  font-size: 25pt;
+  background: rgba(100,100,100,0.5);
+}
