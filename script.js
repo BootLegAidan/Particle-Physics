@@ -13,7 +13,6 @@ function resized() {
   }
   ctx.translate(c.width/2, c.height/2)
 }
-resized()
 addEventListener('resize',resized)
 c.addEventListener('mousemove', (e) => {
   // ctx.fillRect(e.clientX)
@@ -21,8 +20,8 @@ c.addEventListener('mousemove', (e) => {
   mouse.x = e.clientX - (rect.left + c.width/2); //x position within the element.
   mouse.y = e.clientY - (rect.top + c.height/2);  //y position within the element.
 })
-
 ctx.translate(c.width/2, c.height/2)
+resized()
 
 let mouse = {
   x: 0,
