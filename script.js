@@ -96,7 +96,7 @@ let p = []
 // }
 
 
-let detail = 6
+let detail = 10
 for (let i = 0; i < c.width / detail; i++){
   for (let j = 0; j < c.height / detail; j++){
     p[p.length] = new Particle({
